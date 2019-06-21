@@ -3,13 +3,14 @@ package com.gfg.abhay.SpringBootBackendService.service;
 import com.gfg.abhay.SpringBootBackendService.model.User;
 import com.gfg.abhay.SpringBootBackendService.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-
+@Component
 @Service
 public class UserDaoService {
 
